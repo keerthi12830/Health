@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Management System - Buy Medicine</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Buy Medicine</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="doctors.html">Doctors</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="medicines.html">Medicines</a></li>
+            <li><a href="buy_medicine.html">Buy Medicine</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Order Your Medicines Online</h2>
+        <form action="submit_order.php" method="post">
+            <label for="medicine">Medicine Name:</label><br>
+            <input type="text" id="medicine" name="medicine"><br><br>
+            <label for="quantity">Quantity:</label><br>
+            <input type="number" id="quantity" name="quantity"><br><br>
+            <label for="address">Delivery Address:</label><br>
+            <textarea id="address" name="address"></textarea><br><br>
+            <input type="submit" value="Order Now">
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 Hospital Management System</p>
+    </footer>
+</body>
+</html>
